@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  width: 400px;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+.friend_list {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
