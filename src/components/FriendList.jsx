@@ -9,13 +9,12 @@ const FriendList = props => {
     <ul className={style.friend_list}>
       {friends.map(friend => {
         return (
-          <li className={style.item} key={friend.id}>
-            <FriendListItem
-              avatar={friend.avatar}
-              name={friend.name}
-              isOnline={friend.isOnline}
-            />
-          </li>
+          <FriendListItem
+            avatar={friend.avatar}
+            name={friend.name}
+            isOnline={friend.isOnline}
+            id={friend.id}
+          />
         );
       })}
     </ul>
